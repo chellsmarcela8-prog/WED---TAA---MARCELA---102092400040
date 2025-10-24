@@ -1,0 +1,86 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #ffe6f0; /* pink muda */
+    padding: 25px;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    border: 2px solid #ff99c8; /* pink tua lembut */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #cc0066; /* pink tua */
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #333;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffc2d6; /* border pink lembut */
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #ff4d94; /* pink lebih tua pas fokus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 77, 148, 0.4);
+}
+
+textarea {
+    resize: none;
+    min-height: 70px;
+}
+
+button {
+    background-color: #ff4d94; /* pink tua */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: 0.3s;
+
+}
+
+button:hover {
+    background-color: #e60073;
+}
+
+.error {
+    color: #e60073;
+    font-size: 13px;
+    margin-top: 3px;
+    display: block;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top:25px;
+}
+
+th {
+    background-color: #ffe6f0;
+}
+
+tr:hover {
+    background-color: #ffd1e1;
+}
